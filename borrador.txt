@@ -1,0 +1,108 @@
+charles babbage 1791-1871
+    la primera maquina programable
+Ada lovelace 1815-1852 primer algoritmo para la maquina de babbage
+    primera programadora
+
+Grace Murray Hopper 1906-1992
+    invento el primer compilador(A0) para el univar en 1951
+    la idea de lenguajes independientes de la maquina
+
+Primeros ordenador
+    1943 Colossus Mark 1,2,3
+    1946 ENIAC
+        primer turing completo
+       puede realizar cualquier algoritmo
+    1960 circuito integrado
+    1971 Microprocesador
+    1981 IBM PC
+
+Lenguajes padres
+1950 : Invención del lenguaje ensamblador por Mauricio V. Wilkes de la
+Universidad de Cambridge. Antes, la programación se efectuaba en binario
+directamente.
+
+1951 : Invención del primer compilador, A0, por Grace Murray Hopper que
+permitía generar un programa binario a partir de un código fuente.
+para el univac1
+
+0.assembler no es independiente de la maquina
+1.Fortran-1957 -> Algol, Basic
+2.Algol-1958 ->pascal,modula2,simula
+3.Lisp-1958 ->clojure,scheme
+4.cobol-1959
+5.Simula-1962,67 ->Smalltalk,c++
+6.CPL(1963) -> C,C++,Java,C#,objectiveC
+
+70's segunda generacion
+
+pascal-1970
+    lenguaje academico
+    formal
+    sintaxis clara y definida
+C 1972
+
+
+Clasificacion de lenguajes
+Tipado
+    con tipos
+    sin tipos
+
+    estaticos
+    dinamicos
+
+    fuerte
+    debil
+
+    nominal
+    duck
+
+    typing
+    structural
+
+Paradigma
+    Imperativo:
+    Concepto de algoritmo, le dices al lenguaje lo que tiene q hacer .
+        *Secuencial
+            El codigo se ejecuta en el orden en q esta escrito
+             Control de flujo muy reducido( salta x lineas, salta a la linea x)
+             No hay encapsulacion de ningun tipo (variables globales)
+            ejm:: ensablador
+        *Estructurado
+            basados en los secuenciales +
+            secuencias de bucles y condicionales
+            no hay encapsulacion de ningun tipo
+            ejm::Basic
+        *Procedural
+            Ahora el codigo ya no es un conjunto de lineas q se ejecuta uno
+tras otro.
+            Lo q vamos a tener es un conjunto de procedimiento, funciones q
+reciven un parametro y devuelven un valor.
+            Código es básicamente un conjunto de procedimientos (funciones).
+            Un procedimiento concreto es el "inicial"
+            El programa consiste en una secuencia de llamadas a procedimientos.
+            Encapsulación de estado de procedimiento (variables locales) q
+pertenecen a un bloque de funcion.
+            ejm::C,Pascal
+        *Opp
+            Encapsular dato y comportamiento. son una extencion de lo anterior
+            Codigo consiste en un conjunto de objetos que colaboran entre
+ellos.
+            Objeto consiste en la identidad, estado y funcionalidad.
+            Encapsulacion a nivel de objeto (estado)
+
+    Declarativo:
+    Se le proporciona la situacion inicial del problema,
+    el resultado q deseas y dejas q el compilador infiera.
+        *Logico:
+            Lenguajes basados en la logica formal
+            Programa es un conjunto de sentencias en logica formal indicando
+            hechos y reglas sobre un determinado problema.
+            ejm::Prolog
+        *Funcional:
+           Código basado en funciones entendiendo por funcion el concepto
+           matematico de ella: sin cambios de estado, inmutabilidad, 
+
+
+
+
+
