@@ -44,20 +44,33 @@ C 1972
 
 Clasificacion de lenguajes
 Tipado
-    con tipos
-    sin tipos
-
-    estaticos
-    dinamicos
-
-    fuerte
-    debil
-
-    nominal
-    duck
-
-    typing
-    structural
+    Estaticos
+        Tipo de variable fijo e inmutable y
+        es conocido antes de usarse.
+        ejm::C,C++,C#,Haskell,java
+    Dinamicos
+        Tipo de variable mutable
+        y no es necesario ser declarado.
+        ejm::visual basic, objective-C,javascript
+    Fuerte
+        Si las reglas sobre los tipos son estrictos
+        ejm::Haskell,Java,C++,java
+    Debil
+        Si las reglas sobre los tipos no son estrictas
+        ejm::Visual basic,javascript
+    Nominal (oop)
+        Si lo que jerarquia de herencia de clases me define donde es valido usar dicha clase.
+        ejm::java, c++, c#
+    Duck typing (oop)
+        Si camina como un pato y grazna como un pato, entonces es un pato.
+        comun en lenguajes dinamicos.
+        La valides semantica de un objeto lo determina los metodos y propiedades que posea.
+        ejm::javascript, si tengo un objeto vehiculo y human y ambos aceleran(), le puedo pasar cualquier objeto q posea dicho metodo.
+    structural typing
+        Tiene la misma idea de duck typing, pero para lenguajes estaticos.
+        Sistemas de tipo estatico en el que la presencia de determinados métodos y propiedades en una clase determina su validez semántica.
+        Dos tipos se consideran iguales si tiene las mismas propiedades y métodos con independencia de donde se declaran.
+        ejm::C++ a través de los templates.
 
 Paradigma
     Imperativo:
@@ -73,20 +86,16 @@ Paradigma
             no hay encapsulacion de ningun tipo
             ejm::Basic
         *Procedural
-            Ahora el codigo ya no es un conjunto de lineas q se ejecuta uno
-tras otro.
-            Lo q vamos a tener es un conjunto de procedimiento, funciones q
-reciven un parametro y devuelven un valor.
+            Ahora el codigo ya no es un conjunto de lineas q se ejecuta uno tras otro.
+            Lo q vamos a tener es un conjunto de procedimiento, funciones que reciven un parametro y devuelven un valor.
             Código es básicamente un conjunto de procedimientos (funciones).
             Un procedimiento concreto es el "inicial"
             El programa consiste en una secuencia de llamadas a procedimientos.
-            Encapsulación de estado de procedimiento (variables locales) q
-pertenecen a un bloque de funcion.
+            Encapsulación de estado de procedimiento (variables locales) que pertenecen a un bloque de funcion.
             ejm::C,Pascal
         *Opp
             Encapsular dato y comportamiento. son una extencion de lo anterior
-            Codigo consiste en un conjunto de objetos que colaboran entre
-ellos.
+            Codigo consiste en un conjunto de objetos que colaboran entre ellos.
             Objeto consiste en la identidad, estado y funcionalidad.
             Encapsulacion a nivel de objeto (estado)
 
@@ -99,8 +108,8 @@ ellos.
             hechos y reglas sobre un determinado problema.
             ejm::Prolog
         *Funcional:
-           Código basado en funciones entendiendo por funcion el concepto
-           matematico de ella: sin cambios de estado, inmutabilidad, 
+            Código basado en funciones entendiendo por funcion el concepto
+            matematico de ella: sin cambios de estado, inmutabilidad,
 
 
 
