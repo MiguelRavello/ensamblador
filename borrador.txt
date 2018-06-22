@@ -85,7 +85,7 @@ Paradigma
             secuencias de bucles y condicionales
             no hay encapsulacion de ningun tipo
             ejm::Basic
-        *Procedural
+        *Procedural : Estructurado + funcion con parametros.
             Ahora el codigo ya no es un conjunto de lineas q se ejecuta uno tras otro.
             Lo q vamos a tener es un conjunto de procedimiento, funciones que reciven un parametro y devuelven un valor.
             Código es básicamente un conjunto de procedimientos (funciones).
